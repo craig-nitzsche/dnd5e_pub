@@ -1,0 +1,98 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "CatalonianCompendium",
+				"abbreviation": "CCom",
+				"full": "Catalonian Compendium",
+				"url": "https://catalonian.compendium/",
+				"authors": [
+					"Craig Nitzsche"
+				],
+				"convertedBy": [
+					"Craig Nitzsche"
+				],
+				"color": "#14766f"
+			}
+		]
+	},
+	"spell": [
+		{
+			"uniqueId": "6d2ca042-f1ce-4fa9-83c6-28546ae4400a",
+			"name": "Dream Jump",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger (Horizon Walker)",
+						"source": "XGE"
+					},
+					{
+						"name": "Ranger (Fey Wanderer)",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You and up to 3 other creatures of your choice within range, can enter the dream realm. It is up to the DM's discretion to decide how the dream realm differs from the material plane. They enter the dream realm in their physical bodies appearing in the same location on the dream plane, their bodies disappearing from the material plane. ",
+				"Any damage dealt in the dream realm carries through to the material plane, if you die in the dream realm you die on the material plane.",
+				"To exit the realm the spell must be dropped. Once dropped, all creatures originally targeted by this spell are thrown back to the material plane in the location that they exited the dream realm.",
+				"You can use this spell to target an unwilling creature. Choose a creature within range and make a ranged spell attack against it. On a hit, the creature must make a Charisma saving throw. If the creature fails this save, it is transported to the dream realm along with you. "
+			],
+			"source": "CatalonianCompendium",
+			"page": 101,
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Topaz"
+			},
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+					]
+				}
+			]
+		}
+	]
+}
